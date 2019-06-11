@@ -1,0 +1,55 @@
+body{
+    background: #fbfbfb;
+}
+a:hover{
+	text-decoration:none;
+}
+.other_header{
+    background: #05b570;
+
+}
+.other_header>ul{
+    margin-left: 5rem;
+    font-size: 0;
+}
+.nav-pills>li+li{
+    margin: 0;
+}
+.other_header li>a{
+    color:#fff;
+    border-left: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 1.5rem;
+}
+.other_header li>a:hover{
+    background:#47b488 ;
+}
+.other_footer{
+	text-align:center;
+}
+.reg_btn,.login_btn{
+	background:#05b570;
+	color:#fff;
+}
+.reg_btn:hover,.login_btn:hover{
+	background:#47b488;
+	color:#fff;
+}
+
+.reg,.myInfo{
+    background: #fff;
+    margin-top: 5rem;
+	margin-bottom: 5rem;
+    border-radius: 5px;
+	padding:0;
+    border: 1px solid #ddd;
+}
+a.green{
+	text-decoration:underline;
+	color:#05b570;
+}
+.help-block{
+    color:red;
+    text-align: left;
+    font-size: 1.2rem;
+}

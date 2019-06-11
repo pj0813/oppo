@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        span{
+            cursor: pointer;
+            border:1px solid #ddd;
+        }
+        .disable{
+            cursor:not-allowed;
+            color:#ddd !important;
+        }
+    </style>
+</head>
+<body>
+<div>ee</div>
+<span class="minus">-</span><span class="add">+</span>
+<script src="jquery-1.11.3.js"></script>
+<script>
+    $(function(){
+        $(document).on("click","div",function(){
+            console.log("aaa");
+        })
+        $(".minus").on("click",function(){
+                $(".minus").addClass("disable");
+                $(".add").removeClass("disable");
+        })
+        $(".add").on("click",function(){
+                $(".add").addClass("disable");
+                $(".minus").removeClass("disable");
+        })
+    })
+</script>
+</body>
+</html>

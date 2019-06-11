@@ -1,0 +1,137 @@
+.myInfo{
+    width:90rem;
+}
+.baseInfo{
+	border-bottom:1px solid #ddd;
+	padding:3rem;
+	font-size:1.6rem;
+	font-weight:bold;
+}
+.baseInfo>li{
+	padding:0.2rem 0;
+}
+.baseInfo>li>b{
+	text-align:right;
+    padding: 0;
+}
+.baseInfo>li>span{
+    padding:0;
+}
+.user_desc{
+	font-weight:normal;
+	color:#999;
+}
+.jifen{
+	color:#05b570;
+	margin-right:2rem;
+}
+.my_content{
+	padding:0 2rem;
+}
+.my_detail>li{
+	margin:0;
+    padding: 2rem 0;
+	border-top:1px solid #ddd;
+    position: relative;
+}
+.my_detail .btn{
+    position: absolute;
+    right:0;
+    top:50%;
+    margin-top: -17px;
+    width: 8rem;
+}
+.detail_info{
+    margin-left: 35px;
+}
+.detail_info>p{
+	color:#999;
+}
+.orage{
+	color:#fa7423;
+}
+.phoneNum{
+	color:#05b570;
+	margin-left:2rem;
+}
+.warn{
+	font-size:1.8rem;
+	padding:5rem 0 2rem;
+}
+.warn>div{
+	display:inline-block;
+}
+.progress{
+	padding:0;
+	margin:0;
+	height:0.2rem;
+    margin-top: 1rem;
+}
+.progress-bar{
+	background:#fa7423;
+}
+
+.exite>li>a{
+   border:0;
+}
+.edit{
+    display: inline-block;
+    width:19px;
+    height:19px;
+    margin-left: 1rem;
+    vertical-align: middle;
+    background: url("../img/icon_edit.png");
+}
+.row_left{
+    display: inline-block;
+    width:32px;
+    height:32px;
+    position: absolute;
+    top:50%;
+    margin-top: -16px;
+    
+}
+.lock{
+    background: url("../img/icon_lock.png") no-repeat center center ;
+}
+.icon_warn{
+    background: url("../img/icon_warn.png") no-repeat center center ;
+}
+.mobile{
+    background: url("../img/icon_mobile.png") no-repeat center center ;
+}
+.state{
+    display: inline-block;
+    width:22px;
+    height:22px;
+    background: url("../img/ico_success_gray.jpg") no-repeat center center ;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+.success_score{
+    color:#9d9d9d;
+    font-weight: bold;
+}
+.cur_pointer{
+    display: inline-block;
+    width:7px;
+    height:7px;
+    background: url("../img/dot.jpg") no-repeat center center ;
+    position: absolute;
+    left:40%;
+    top:7px;
+}
+.cur_score{
+    display: inline-block;
+    text-align: center;
+    width:70px;
+    height: 48px;
+    padding-top: 6px;
+    background: url("../img/qipao.jpg") no-repeat center center ;
+    position: absolute;
+    top:-40px;
+    left:14.7rem;
+}
+.other_footer p{
+    text-align: center;
+}

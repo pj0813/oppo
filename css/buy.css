@@ -1,0 +1,529 @@
+section{
+    background: #ddd;
+}
+.header{
+    background: #fff;
+}
+.buy_content>.row{
+    padding:20px;
+    background:#fff;
+    margin-bottom: 3rem;
+}
+/* --ie清除--*/
+select::-ms-expand{ display: none; }
+/* --火狐、谷歌清�?--*/
+select{
+	border:none;
+	outline:none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+.addr_pro select>:first-child{
+	display:none;
+}
+.addr_pro>div{
+	position:relative;
+}
+.down{
+	position:absolute;
+	right:1rem;
+	top:0;
+	font-size:2rem!important;
+}
+.select_item>span{
+    vertical-align: middle;
+}
+.icon-dagou{
+    color:#fff;
+    border-radius:50%;
+    border:1px solid #ddd;
+    cursor:pointer;
+}
+.select_item.active>.icon-dagou{
+    color:#00c678;
+    border:0;
+}
+.online_pay{
+    border-radius: 5px;
+    width:20rem;
+    background: #fff;
+    border: 1px solid #81cdb1;
+    padding:1.5rem;
+}
+.fuser,.pay_method{
+    padding-top:2rem;
+}
+
+/**/
+.cart_labels{
+    border:1px solid #f79a47;
+    color:#f79a47;
+    padding:0 0.5rem;
+    margin-right: 1rem;
+}
+.cart_right>div{
+    height:7rem;
+    border-bottom: 1px solid #ddd;
+    line-height: 7rem;
+    margin: 0;
+}
+.cart_right>div>div{
+    height:100%;
+}
+.cart_z_name{
+    display: inline-block;
+}
+.price_table>li{
+    height:4rem;
+    line-height: 4rem;
+}
+.pdesc{
+    color:#999;
+    margin-right:0.5rem;
+}
+.add_addr{
+	display:none;
+}
+.form-control:focus{
+	box-shadow: none;
+	border-color:#000;
+}
+.error .help-block{
+	font-size:1.5rem;
+	color:#EA3724;
+}
+
+.cname{
+    margin-right: 1rem;
+}
+.company{
+    display:none;
+}
+.shp_item{
+    border-bottom: 1px solid #ddd;
+}
+.shp_item:last-child{
+    border:0
+}
+.shp_sale .form-group{
+    margin-bottom: 0;
+}
+.default{
+    border:1px solid #f79a47;
+    color:#f79a47;
+    font-size: 1rem;
+    padding:0.1rem 0.3rem;
+    border-radius: 2px;
+    margin-right: 0.5rem;
+}
+.setDefault .icon-dagou{
+    font-size: 18px;
+}
+.select_item{
+    cursor: pointer;
+}
+.addr_pro .form-control{
+    width:13rem;
+}
+.xs_edit{
+    display: none;
+}
+@media (min-width:768px) {
+    section{
+        padding: 9rem 3rem 3rem;
+    }
+	.form-inline .form-group{
+		vertical-align:top;
+	}
+    .edit_addr .addr,.new_addr{
+        display: inline-block;
+        width:190px;
+        height:150px;
+        border-radius: 5px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    .error .form-control{
+        border:1px solid #EA3724;
+        background:#F0E8E9;
+    }
+    .edit_addr .addr{
+       margin-right:1rem;
+        border:1px solid #ddd;
+        padding: 40px 20px;
+		position:relative;
+    }
+	.edit{
+		color:#ddd;
+		position:absolute;
+		right:2rem;
+		bottom:2rem;
+	}
+    .new_addr{
+        border:1px solid #ddd;
+        line-height: 150px;
+        text-align: center;
+    }
+	.new_addr:hover,.addr:hover{
+		border-color:#059157;
+	}
+
+    .edit_addr{
+		padding:0;
+        padding-bottom: 30px;
+    }
+    .edit_addr>div{
+        margin-bottom: 1rem;
+    }
+	.add_addr_content{
+		border-top: 1px solid #ddd;
+		padding-top:3rem;
+	}
+    .add_addr_content>div{
+        padding-bottom: 2rem;
+    }
+    .add_addr_content .form-control{
+        margin-right: 1rem;
+    }
+    .addr_name .form-control{
+        width:200px;
+    }
+    .form-group .addr_detail{
+        width:420px;
+    }
+    .xs-header{
+        display: none;
+    }
+	.icon-tianjia{
+		vertical-align:middle;
+		margin-right:0.5rem;
+	}
+	.form-control>select{
+		border:0;
+		width:100%;
+	}
+    .fuser input{
+        width:400px;
+    }
+    .shp_item{
+        padding: 0;
+    }
+    /**/
+    .xs_cart_img{
+        display: none;
+    }
+    .cart_img{
+        display: block;
+        width:7rem;
+        margin: 0 auto;
+    }
+    .cart_right>div.cart_z{
+        border: 0;
+    }
+    .cart_z_name img{
+        display: inline-block;
+        width:3rem;
+    }
+
+    /**/
+    .buy_content>.shp_detail{
+        margin-bottom: 0;
+    }
+    .buy_content>.shp_sale{
+        margin-bottom: 0;
+        border-top: 1px solid #ddd;
+        border-bottom:1px solid #ddd ;
+    }
+    .price_table{
+        border-bottom: 1px solid #ddd;
+    }
+    .all_price{
+        font-size:2.5rem;
+    }
+    .pcode{
+        font-size:2rem;
+    }
+    .bar{
+        padding:1.5rem 5rem;
+    }
+    .pay_money{
+        text-align: right;
+    }
+    .fapiao{
+        border-bottom: 1px solid #ddd;
+    }
+    .pay_bar_left{
+        text-align: right;
+    }
+    .addrs_title{
+        display: none;
+    }
+}
+@media (max-width:767px) {
+    section{
+        padding: 0rem;
+    }
+    .header,.footer{
+        display: none;
+    }
+    .xs-header{
+        position: fixed;
+        width:100%;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+        height:5rem;
+        line-height: 5rem;
+        z-index: 1000;
+        background: #fff;
+        top:0;
+        left:0;
+    }
+    .back,.addr_back{
+        position: absolute;
+        left:2rem;
+        cursor: pointer;
+    }
+    .buy_content{
+        padding-top: 5rem;
+        font-size: 1.2rem;
+    }
+    .addr p{
+        margin: 0;
+    }
+    .new_addr{
+        display: none;
+    }
+    .f_title{
+        padding:2rem;
+    }
+    .buy_content input, .buy_content input:focus{
+        border:0;
+        border-bottom:1px solid #ddd;
+        outline:none;
+        box-shadow:none;
+        border-radius: 0;
+    }
+    .cart_right{
+        padding: 0;
+    }
+    /**/
+    .xs_cart_img{
+        width:6rem;
+    }
+    .pdt_price,.add_price,.service_price{
+        text-align: right;
+    }
+    .cart_content{
+        font-size: 1.2rem;
+    }
+    .cart_z_name{
+        line-height: 2rem;
+        vertical-align: middle;
+    }
+    .cart_z_name img{
+        display: block;
+        margin: 0 auto;
+        width:3rem;
+    }
+    .cart_right>div:last-child{
+        border: 0;
+    }
+    .bar{
+        padding:1rem 0;
+        width:12rem;
+    }
+    .pay_bar{
+        position: fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        z-index: 1000;
+        background: #fff;
+        margin: 0;
+        -webkit-box-shadow: 0 -2px 10px rgba(26,26,26,0.1);
+        box-shadow: 0 -2px 10px rgba(26,26,26,0.1);
+        height: 5rem;
+    }
+    .all_price{
+        font-size:1.5rem;
+    }
+    .pcode{
+        font-size:1rem;
+    }
+    .cart_right>.row>div{
+        padding: 0;
+    }
+    .pay_bar .row>div{
+        height: 5rem;
+    }
+    .buy_content>.addrs{
+        padding: 0;
+    }
+    .addr:not(.curAddr){
+        display: none;
+    }
+    .addr{
+        padding: 2rem;
+        cursor: pointer;
+    }
+    .xs_edit{
+        position: absolute;
+        right:2rem;
+        top:2rem;
+    }
+    .edit{
+        display: none;
+        position: absolute;
+        right:2rem;
+        top:50%;
+        font-size: 1.5rem!important;
+    }
+    .curAddr .xs_edit{
+        display: block;
+    }
+    .addrs_title{
+        width:100%;
+        position: fixed;
+        top:0;
+        left:0;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+        display: none;
+        height: 5rem;
+        line-height: 5rem;
+        font-size: 1.5rem;
+        z-index: 6000;
+        background: #fff;
+        -webkit-box-shadow: 0 -2px 10px rgba(26,26,26,0.1);
+        box-shadow: 0 -2px 10px rgba(26,26,26,0.1);
+    }
+    .buy_content .addrs_fixed{
+        position: fixed;
+        top:0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height:100%;
+        z-index: 5000;
+        background: #ddd;
+        margin: 0;
+        overflow:auto;
+        -webkit-box-shadow: 0 -2px 10px rgba(26,26,26,0.1);
+        box-shadow: 0 -2px 10px rgba(26,26,26,0.1);
+    }
+    .icon-tianjia{
+        display: none;
+    }
+    .addrs_fixed .addrs_detail{
+        margin-top: 5rem;
+        background: #ddd;
+        position: relative;
+        width: 100%;
+    }
+    .addrs_fixed .addr{
+        display: block;
+    }
+    .fixed-addr .xs_edit{
+        display: none;
+    }
+    .addrs_fixed .edit_addr{
+        padding: 0;
+    }
+    .addrs_fixed .addrs_detail .addr{
+        background: #fff;
+        margin-top: 2rem;
+        position: relative;
+    }
+    .addrs_fixed .new_addr{
+        margin: 2rem 2rem 3rem;
+        display: block;
+    }
+    .addrs_fixed .new_addr>div{
+        text-align: center;
+        font-size: 1.3rem;
+        background: #777;
+        padding: 1rem 0;
+        border-radius: 5px;
+        color:#fff;
+        transition: background 0.5s;
+        cursor: pointer;
+    }
+    .addrs_fixed .new_addr>div:hover{
+        background: #5e5e5e;
+    }
+    .addrs_fixed .add_addr{
+        background: #fff;
+        margin-top: 2rem;
+        position: absolute;
+        width: 100%;
+    }
+    .addrs_fixed .add_addr_content .help-block{
+        display: none;
+        font-size: 1.2rem;
+    }
+    .addrs_fixed .add_addr_content .form-group{
+        margin: 0;
+    }
+    .addrs_fixed .add_addr_content{
+        padding: 0 4rem;
+    }
+    .addrs_fixed .addr_pro .form-group{
+        display: inline-block;
+    }
+    .addrs_fixed .addr_pro select{
+        border:0;
+        outline: 0;
+        border-radius: 0;
+        box-shadow:none;
+    }
+    .addrs_fixed .addr_pro .form-control{
+        width:auto;
+    }
+    .addrs_fixed .add_addr_content .addr_btn{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .addrs_fixed .add_addr_content button{
+        width:45%;
+    }
+    .addrs_fixed .add_addr_content .setDefault{
+        padding:1rem 0;
+    }
+    .addrs_fixed .addr_pro{
+        border-bottom: 1px solid #ddd;
+    }
+    .addrs_fixed .addrs_detail .curAddr{
+        background: #fff url(../img/pdt/cur_line.jpg) repeat-x bottom left;
+        background-size:36px 4px ;
+    }
+    .addrs_fixed .error .form-control{
+        border-bottom:1px solid #EA3724;
+    }
+    .addrs_fixed .xs_edit{
+        display: none;
+    }
+    .addrs_fixed .edit{
+        display: block;
+    }
+    .addrs_fixed .addr_list{
+        position: absolute;
+        width: 100%;
+    }
+}
+.edit_addr .curAddr{
+    border-color:#059157;
+}
+.fixed-addr{
+    position: fixed;
+    left:0;
+    top:5rem;
+    background: #fff;
+    z-index: 1000;
+    width: 100%!important;
+    height:8rem!important;
+    -webkit-box-shadow: 0 2px 28px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 28px rgba(0,0,0,0.1);
+    padding: 2rem!important;
+}

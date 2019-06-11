@@ -1,0 +1,43 @@
+section{
+	padding:10rem 0;
+}
+.login_form{
+	width:26rem;
+	margin:0 auto;
+}
+.login_title{
+	text-align:center;
+	padding-bottom:3rem ;
+}
+.login_form>p{
+	text-align:right;
+}
+.top_pic{
+    height:34px;
+    margin-bottom: 1rem;
+    background: url("../img/logo.png") no-repeat center center;
+}
+.other_title{
+    margin-top: 5rem;
+    height: 23px;
+    background: url("../img/ico_title.png") no-repeat center center;
+}
+.other_icon{
+    text-align: center;
+    margin-top: 3rem;
+}
+.other_icon b{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+.btn:focus,.btn:active,.btn:active:focus{
+    outline: none;
+}
+.icon_qq{
+    background: url("../img/ico_qq.jpg") no-repeat center center;
+}
+.icon_wx{
+    background: url("../img/ico_wx.jpg") no-repeat center center;
+}

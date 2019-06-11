@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OPPO</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/commo.css"/>
+    <link rel="stylesheet" href="css/iconfont.css"/>
+    <link rel="stylesheet" href="css/pay.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+	
+</head>
+<body>
+<header class="header">
+
+</header>
+<section class="container-fluid">
+    <div class="xs-header">
+        <span class="iconfont icon-fanhui back"></span>等待付款
+    </div>
+    <div class=" row pay_content">
+        <div class="col-sm-12">
+            <div class="row pay_title">
+                <div class="hidden-xs col-sm-5 wait_img text-right">
+                    <img src="img/wait.png" alt=""/>
+                </div>
+                <div class="col-sm-7">
+                    <div class="pay_wait">订单已提交，等待付款 <b class="order_price"></b></div>
+                    <p class="pay_notice">48小时内未付款将自动取消订单</p>
+                </div>
+            </div>
+            <div class="row pay_detail">
+                <div class="col-sm-2 pay_detail_left">
+                    <span class="order_detail">
+                        订单详情
+                        <span class="iconfont icon-xiala open"></span>
+                        <span class="iconfont icon-shangla"></span>
+                    </span>
+                </div>
+                <div class="col-sm-10 pay_detail_right">
+
+                </div>
+            </div>
+            <div class="row pay_flat">
+                <div class="hidden-xs col-sm-2 pay_flat_left">
+                    支付平台
+                </div>
+                <div class="col-sm-10 pay_flat_right">
+                    <ul class="nav nav-pay row pay_methods">
+                        <li class="col-sm-4">
+                            <a href="#zhifubao" data-toggle="tab" class="pay_method_item">
+                                <span class="iconfont icon-z-alipay"></span>
+                                支付宝
+                                <b>推介</b>
+                                <span class="iconfont icon-rightgou"></span>
+                                <div class="select_item">
+                                    <span class="iconfont icon-dagou"></span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-sm-4 huabei">
+                            <a href="#huabei" data-toggle="tab" class="pay_method_item">
+                                <span class="iconfont icon-pay-huabei"></span>
+                                花呗分期
+                                <b>免息</b>
+                                <span class="iconfont icon-rightgou"></span>
+                                <div class="select_item">
+                                    <span class="iconfont icon-dagou"></span>
+                                </div>
+                            </a>
+                            <ul class="nav nav-pay xs-huabei">
+                            </ul>
+                        </li>
+                        <li class="col-sm-4">
+                            <a href="#weixin" data-toggle="tab" class="pay_method_item">
+                                <span class="iconfont icon-pay-weixin"></span>
+                                微信支付
+                                <span class="iconfont icon-rightgou"></span>
+                                <div class="select_item">
+                                    <span class="iconfont icon-dagou"></span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row tab-content pay_desc hidden-xs">
+                <div class="col-sm-12 tab-pane" id="zhifubao">
+                    <div>
+                        <img src="img/pdt/pay" alt=""/>
+                        <p>打开手机微信</p>
+                        <p>扫一扫继续付款</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 tab-pane" id="huabei">
+                    <ul class="nav nav-pay sm-huabei">
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="hua3">
+                            <img src="img/pdt/pay" alt="" />
+                            <p>打开手机微信</p>
+                            <p>扫一扫继续付款</p>
+                        </div>
+                        <div class="tab-pane" id="hua6">
+                            <img src="img/pdt/pay" alt="" />
+                            <p>打开手机微信</p>
+                            <p>扫一扫继续付款</p>
+                        </div>
+                        <div class="tab-pane" id="hua12">
+                            <img src="img/pdt/pay" alt="" />
+                            <p>打开手机微信</p>
+                            <p>扫一扫继续付款</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 tab-pane" id="weixin">
+                    <div>
+                        <img src="img/pdt/pay" alt=""/>
+                        <p>打开手机微信</p>
+                        <p>扫一扫继续付款</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row other_method">
+        <div class="col-sm-2 hidden-xs">
+            其他方式
+        </div>
+        <div class="col-sm-10">
+            <div class="nav-pay carsh_huabei">
+                <a href="" class="hua_fenqi">
+                    <span></span>
+                    “花呗分期 + 现金”支付
+                    <b>免息</b>
+                    <div class="select_item">
+                        <span class="iconfont icon-dagou"></span>
+                    </div>
+                    <span class="iconfont icon-rightgou"></span>
+                </a>
+            </div>
+            <div class="huabei_desc">
+                <p class="huabei_title">若花呗分期额度不足，推荐此支付方式：</p>
+                <p>第1步，花呗分期支付 60%；</p>
+                <p>第2步，支付宝现金支付 40%；</p>
+                <p>*花呗分期支付的部分可享受商品对应的免息政策；</p>
+            </div>
+            <div class="huabei_process">
+                <div class="first_step">
+                    <p>第 1 步：花呗分期支付 (60%) : ¥<span class="sixPect"></span></p>
+                    <div>
+                        <ul class="row nav nav-pay other_huabei">
+                        </ul>
+                        <div class="tab-content hidden-xs">
+                            <div class="tab-pane active" id="carsh_hua3">
+                                <img src="img/pdt/pay" alt="" />
+                                <p>打开手机微信</p>
+                                <p>扫一扫继续付款</p>
+                            </div>
+                            <div class="tab-pane" id="carsh_hua6">
+                                <img src="img/pdt/pay" alt="" />
+                                <p>打开手机微信</p>
+                                <p>扫一扫继续付款</p>
+                            </div>
+                            <div class="tab-pane" id="carsh_hua12">
+                                <img src="img/pdt/pay" alt="" />
+                                <p>打开手机微信</p>
+                                <p>扫一扫继续付款</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two_step">
+                    <p>第 2 步：支付宝现金支付 (40%) : ¥<span class="fourPect"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pay_btn middle_outer">
+        <div class="middle_p">
+            <a  href="" class="bar">立即支付</a>
+        </div>
+
+    </div>
+</section>
+<footer class="footer container">
+
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/extend_jquery.js"></script>
+<script src="js/commo.js"></script>
+<script src="js/pay.js"></script>
+<script src="js/rem.min.js"></script>
+</body>
+</html>

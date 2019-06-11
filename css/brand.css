@@ -1,0 +1,114 @@
+.intro_brand>div,.banner_bg_head{
+    overflow: hidden;
+    position: relative;
+}
+.intro_brand>div{
+    margin-top:1rem;
+}
+.brand_text{
+    width: 100%;
+    text-align: center;
+}
+.brand_text p b{
+    font-size: 0;
+    width: 0px;
+    height: 0px;
+    margin-left: 1rem;
+    vertical-align: middle;
+
+}
+.banner_bg_head .brand_text>h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner_bg_head .brand_text>h3 {
+    font-size: 2rem;
+}
+
+.b_white{
+    color:#fff;
+}
+.b_white a{
+    color:#fff;
+}
+
+.b_black{
+    color:#333;
+}
+.b_black a{
+    color:#333;
+}
+
+.intro_brand .brand_text a:hover{
+    opacity: .7;
+}
+
+
+@media (min-width:768px){
+	
+	.intro_brand>div{
+		height:540px;
+	}
+
+    .brand_text{
+        top:10%;
+    }
+    .banner_bg_head .brand_text{
+        top:50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateY(-50%);
+    }
+    .intro_brand .brand_text>h2 {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    .intro_brand .brand_text>h3 {
+        font-size: 2rem;
+    }
+    .intro_brand .brand_text>p a {
+        font-size: 2rem;
+    }
+    .brand_text p b{
+        border: 6px solid transparent;
+    }
+    .banner_bg_head .brand_text b{
+        display: none;
+    }
+    .banner_bg_head .brand_text p>a{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:767px){
+	
+	.intro_brand{
+        padding:0 2rem;
+    }
+    .banner_bg_head .brand_text a:hover{
+        opacity: .7;
+    }
+    .intro_brand .brand_text>h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .intro_brand .brand_text>h3 {
+        font-size: 1.5rem;
+    }
+    .intro_brand .brand_text>p a {
+        font-size: 1.5rem;
+    }
+    .brand_text p b{
+        border: 5px solid transparent;
+    }
+    .banner_bg_head .brand_text{
+        top:60%;
+    }
+
+}
+    .b_white p b{
+        border-left-color:#fff;
+    }
+    .b_black p b{
+        border-left-color:#333;
+    }

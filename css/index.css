@@ -1,0 +1,64 @@
+
+
+    /*展示*/
+.show .row{
+    margin-top: 0.5rem;
+	font-size:0;
+}
+.show .row>div{
+	padding:0;
+    font-size: 0;
+}
+.show .row>div a{
+	width:100%;
+	display:inline-block;
+    overflow:hidden;
+	background:#fff no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+.show .row>div a.show1{
+	background-image:url(../img/show1.jpg);
+   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/show1.jpg",sizingMethod="scale");
+}
+.show .row>div a.show2{
+	background-image:url(../img/show2.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='img/show2.jpg', sizingMethod="scale");
+}
+.show .row>div a.show3{
+	background-image:url(../img/show3.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/show3.jpg",sizingMethod="scale");
+}
+.show .row>div a.show4{
+	background-image:url(../img/show4.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/show4.jpg",sizingMethod="scale");
+}
+.banner_bg{
+    height:100%;
+}
+/**/
+@media (max-width:767px){
+
+	.show .row{
+		margin-top:0;
+	}
+	.show .row>div{
+		margin-bottom:0.5rem;
+	}
+    .show .row>div a{
+        height:280px;
+    }
+
+}
+@media (min-width:768px){
+    #oppobar{
+        text-align:center;
+    }
+    .show .row>div.showpadding{
+        padding-right:0.5rem;
+    }
+    .show .row>div a{
+        height:300px;
+    }
+}

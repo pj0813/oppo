@@ -1,0 +1,386 @@
+section{
+    background: #ddd;
+}
+.header{
+    background: #fff;
+}
+a:focus{
+	text-decoration:none;
+	color:#333;
+}
+.pay_notice{
+    color:#777;
+}
+.nav-pay a>b{
+    border:1px solid #d58512;
+    color: #d58512;
+    border-radius: 2px;
+}
+.nav-pay>li>a:focus, .nav-pay>li>a:hover {
+    text-decoration: none;
+    background-color: #fff;
+}
+.huabei_title {
+    color: #d58512;
+}
+.nav-pay a>span{
+	vertical-align:middle;
+}
+.icon-z-alipay{
+	color:#00a2eb;
+}
+.icon-pay-huabei{
+	color:#00a2eb;
+}
+.icon-pay-weixin{
+	color:#00c800
+}
+
+	
+	.huabei_process{
+		display:none;
+	}
+	
+	.active .hua_fenqi{
+		border-color:#00925f;
+	}
+.order_detail>span{
+	display:none;
+}
+
+@media (min-width:768px) {
+    section{
+        padding: 90px 30px 30px;
+    }
+    .pay_content{
+        background: #fff;
+    }
+    .xs-header{
+        display: none;
+    }
+    .pay_title{
+        padding: 60px 0 30px;
+    }
+    .pay_wait{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .wait_img img{
+        width:15rem;
+    }
+    .pay_detail,.pay_flat{
+        border-top: 1px solid #ddd;
+        padding:20px 0;
+        margin: 0 10px;
+    }
+    .pay_detail_left,.pay_flat_left{
+        font-size: 1.5rem;
+    }
+    .pay_detail_right>.row>div{
+        padding-bottom: 1rem;
+    }
+    .nav-pay>li>a{
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+		position:relative;
+    }
+    .nav-pay>li.active>a{
+        border-color: #00925f;
+    }
+    .pay_desc{
+        padding: 2rem 0;
+        border-top: 1px solid #ddd;
+    }
+    .tab-pane{
+        text-align: center;
+        font-size: 1rem;
+        color:#777;
+		padding-top:1rem;
+    }
+    .tab-pane img{
+        width:10rem;
+        margin-bottom: 1rem;
+    }
+    .tab-pane p{
+        margin: 0;
+    }
+    #huabei{
+        text-align: center;
+    }
+    #huabei>ul a{
+        font-size: 1.2rem;
+		height:6rem;
+		width:20rem;
+    }
+	#huabei li{
+		display:inline-block;
+		vertical-align:middle;
+		margin-right:1rem;
+	}
+    .t_price{
+        color:#777;
+        margin-right: 0.5rem;
+    }
+    .other_method{
+        margin-top: 2rem;
+        background: #fff;
+        padding: 2rem 0;
+    }
+    .hua_fenqi{
+        display: inline-block;
+        padding: 1rem 0;
+        width: 30rem;
+        border:1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+    .huabei_desc{
+        padding: 2rem 0;
+        font-size: 1.2rem;
+        color:#777;
+    }
+    .nav-pay a>b{
+        font-size: 1.2rem;
+        padding: 0.1rem 0.5rem;
+		margin-left:0.5rem;
+    }
+    .xs-huabei{
+        display: none;
+    }
+    .huabei_title{
+        font-size: 1.5rem;
+    }
+    .pay_btn{
+        display: none;
+    }
+	.select_item{
+		display:none;
+	}
+	
+	.icon-rightgou{
+		display:none;
+	}
+	.active>a .icon-rightgou{
+		display:block;
+		position:absolute;
+		bottom:-2px;
+		right:0;
+		border-radius:5px;
+		color:#00925f;
+        overflow: hidden;
+	}
+	.first_step{
+        padding: 2rem 0;
+		border-top:1px solid #ddd;
+    }
+	.two_step{
+		padding: 2rem 0;
+		border-top:1px solid #ddd;
+		color:#777;
+	}
+    .other_huabei>li{
+        display: inline-block;
+        width:30%;
+        margin-right: 3%;
+        font-size: 1.2rem;
+    }
+}
+@media (min-width:992px){
+	 .nav-pay a>b{
+        position: absolute;
+        right:20px;
+    }
+}
+@media (max-width:767px) {
+    .order_detail>span.open{
+        display:inline-block;
+    }
+    .header,.footer{
+        display: none;
+    }
+    .pay_content>div>.row{
+        background: #fff;
+    }
+    .xs-header{
+        position: fixed;
+        left:0;
+        top:0;
+        width:100%;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+        height:5rem;
+        line-height: 5rem;
+        z-index: 1000;
+        background: #fff;
+    }
+    .back{
+        position: absolute;
+        left:2rem;
+        cursor: pointer;
+    }
+    .pay_wait,.pay_notice{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .pay_content{
+        padding-top: 5rem;
+    }
+    .pay_wait>b{
+       position: absolute;
+        right:2rem;
+        top:1.5rem;
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .pay_detail_left>span{
+        cursor: pointer;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .pay_detail_left{
+        padding-bottom: 1rem;
+    }
+    .pay_detail_right{
+        padding-top: 1rem;
+        line-height: 2.5rem;
+        font-size: 1.2rem;
+        display: none;
+    }
+    .pay_detail_right .row{
+        margin-bottom: 2rem;
+    }
+    .pay_flat{
+        margin-top: 1rem;
+    }
+    .pay_methods>li>a{
+        border-bottom: 1px solid #ddd;
+        padding: 2rem 0;
+
+    }
+    .pay_methods>li:last-child>a{
+        border: 0;
+    }
+    .pay_methods a>b{
+        font-size: 1rem;
+        padding: 0.1rem 0.5rem;
+        position: absolute;
+        left:100px;
+    }
+	
+    .pay_methods>li>a>.select_item{
+        position: absolute;
+        right:0.4rem;
+        top:1.5rem;
+    }
+    .hua_fenqi>.select_item{
+        position: absolute;
+        right:0.4rem;
+        top:1.5rem;
+    }
+    .xs-huabei{
+        padding-left: 2rem;
+    }
+    .pay_methods{
+        font-size: 1.2rem;
+    }
+    .xs-huabei>li>a{
+        display: block;
+        width: 100%;
+        padding: 1rem 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .other_method{
+        background: #fff;
+        margin-top: 2rem;
+		padding-bottom:5rem;
+    }
+    .other_method .nav-pay{
+        
+		position:relative;
+    }
+    .hua_fenqi>b{
+        margin-left: 5rem;
+    }
+    .huabei_desc{
+        font-size: 1.2rem;
+        padding: 2rem 0;
+        margin-left: 2rem;
+    }
+    .huabei_process{
+		margin-left: 2rem;
+	}
+    .pay_btn{
+        position: fixed;
+        width: 100%;
+        height:5rem;
+        bottom:0;
+        left:0;
+        background: #fff;
+        z-index: 1000;
+        text-align: center;
+        -webkit-box-shadow: 0 -2px 10px rgba(26,26,26,0.1);
+        box-shadow: 0 -2px 10px rgba(26,26,26,0.1);
+        margin:0;
+    }
+    .pay_btn .bar{
+        padding: 1rem;
+    }
+	.icon-rightgou{
+		display:none;
+	}
+	.order_detail>span{
+		font-size:1.3rem;
+	}
+	.carsh_huabei{
+		border-bottom:1px solid #ddd;
+	}
+	.carsh_huabei>a{
+		display:inline-block;
+		padding: 2rem 0;
+		width:100%;
+	}
+	.first_step{
+		border-top:1px solid #ddd;
+	}
+	.first_step>p,.two_step>p{
+		margin:0;
+		padding:2rem 0;
+	}
+	.first_step .row{
+		margin:0;
+	}
+	.first_step ul>li:first-child{
+		border-top:1px solid #ddd;
+	}
+	.first_step ul>li{
+		border-bottom:1px solid #ddd;
+	}
+	.two_step{
+		color:#777;
+	}
+	.xs-huabei{
+		display:none;
+	}
+	.nav-pay .select_item{
+		position:absolute;
+		right:0.4rem;
+		top:1.5rem;
+	}
+	.nav-pay p{
+		display:inline-block;
+		width:45%;
+		margin:0;
+		vertical-align:middle;
+	}
+    .nav-pay p:nth-child(2){
+        text-align: right;
+    }
+	.nav-pay p>b{
+		display:block;
+	}
+	.other_huabei>li{
+		padding:0;
+	}
+}

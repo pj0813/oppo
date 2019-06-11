@@ -1,0 +1,94 @@
+
+.auto_service,.hote_item{
+    padding: 5rem 0;
+}
+.auto_service{
+    background: #ddd;
+}
+.auto_service h2{
+    margin-bottom: 5rem;
+}
+.auto_intro{
+    padding:0  0.5rem;
+}
+.auto_intro>a{
+    display: inline-block;
+    background: #fff;
+    padding: 3rem 1.5rem 2rem;
+    text-align: center;
+    height:25rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.auto_intro>a p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+.auto_intro>a span{
+    font-size: 4rem;
+}
+.hotes{
+    margin-top: 5rem;
+}
+.hotes p.check{
+    text-align: left;
+}
+.hotes .row{
+    border-top: 1px solid #ddd;
+    padding: 5rem 0;
+}
+.hot_desc>div{
+    padding:2.5rem 0;
+    line-height: 2.5rem;
+}
+.hot_desc .check{
+    font-size: 1.5rem;
+}
+.store_service{
+    text-align: center;
+}
+.store_service_intro>h4{
+    margin: 0;
+}
+@media (min-width:768px) {
+    .store_service{
+      border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 2rem 0;
+    }
+    .store_service .row>div:first-child{
+        border-right: 1px solid #ddd;
+    }
+
+    .store_service_intro>p{
+        font-size: 1.2rem;
+    }
+    .store_service_intro>div{
+        color:#999;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+@media (max-width:767px){
+    .store_service{
+        background: #ddd;
+        padding: 1rem 0;
+
+    }
+    .store_service_intro{
+        padding: 3rem;
+        margin:1rem 0;
+        background: #fff;
+    }
+    .store_service_intro>h4{
+        font-size: 3rem;
+    }
+    .store_service_intro>p{
+        font-size: 1.5rem;
+    }
+    .store_service_intro>div{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}

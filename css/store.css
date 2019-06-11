@@ -1,0 +1,118 @@
+.store_star{
+    padding-top: 5rem;
+}
+.star_addr{
+    margin-top: 4rem;
+    border-top: 1px solid #ddd;
+}
+.star_intro{
+    border-top:1px solid #ddd;
+    margin-top:5rem;
+}
+.store_name{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:#555;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+.store_addr{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    height:5rem;
+}
+.star_addr>.row>div{
+    margin-bottom: 3rem;
+}
+.store_event{
+    background: #ddd;
+    padding-top: 3rem;
+}
+.events{
+    margin-top: 5rem;
+}
+.events .row{
+    background: #fff;
+    margin-bottom: 2rem;
+}
+.event_pic{
+    height:100%;
+    overflow: hidden;
+}
+.event_desc>div{
+    margin: 2rem 0;
+    line-height: 3rem;
+}
+.events p.check{
+    text-align: left;
+}
+.store_service>h2{
+    margin-bottom: 5rem;
+}
+.store_svcs{
+    text-align: center;
+}
+.store_svcs span{
+    font-size: 4rem;
+}
+.store_svcs p{
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+@media (min-width:768px) {
+    .store_map{
+        display: none;
+    }
+    .events .row{
+        height: 36rem;
+    }
+    .event_desc{
+        position: relative;
+        top:50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .event_pic img{
+        height:100%;
+        width:auto;
+        left:50%;
+        position: relative;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+@media (max-width:767px){
+    .store_map{
+        display: block;
+        position: absolute;
+        right: 0;
+        top:0;
+    }
+    .star_addr>.row>div{
+        border-top:1px solid #ddd;
+    }
+    .star_addr>.row>div:first-child{
+        border-top:0;
+    }
+    .event_pic{
+        padding: 0;
+    }
+    .event_pic img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .event_desc{
+        padding:2.5rem 1rem;
+    }
+    .event_desc h3{
+        font-size: 2rem;
+    }
+    .event_desc .check{
+        font-size: 1.5rem;
+    }
+}
